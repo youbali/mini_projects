@@ -61,7 +61,8 @@ while max(player_scores) < max_score: #wiederholt die Schleife, solange keiner d
 #       Hinzufügen des Rundenscores zur Gesamtpunktzahl
         player_scores[player_idx] += current_score # addiert den Rundenscore zur Gesamtpunktzahl des Spielers
         print("Deine Gesamtpunktzehl ist:", player_scores[player_idx]) # zeigt die aktualisierte Gesamtpunktzahl des Spielers an.
-
+        break
+        
 max_score = max(player_scores) # findet die höchste Punktzahl.
 winning_idx = player_scores.index(max_score) # findet den Index des Spielers mit der höchsten Punktzahl.
 print("Player number", winning_idx + 1,
