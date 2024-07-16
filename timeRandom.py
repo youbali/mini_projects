@@ -2,7 +2,6 @@ import random
 import time
 
 #OPERATORS = ["-", "+", "/", "*"]
-OPERATORS = ["+", "/"]
 MIN_OPERAND = 3
 MAX_OPERAND = 12
 OPERATORS.remove(OPERATORS[1])
